@@ -1,0 +1,11 @@
+{
+  "name": "circlecamp",
+  "version": 3,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "regions": ["sin1"]
+}
