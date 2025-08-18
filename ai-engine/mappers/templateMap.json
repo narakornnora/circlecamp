@@ -1,0 +1,10 @@
+{
+  "default": {
+    "injectAfter": "</header>",
+    "notes": "ใช้กับธีม HTML ส่วนใหญ่ที่มี header/footer"
+  },
+  "findup": {
+    "injectAfter": "</header>",
+    "notes": "ตัวอย่าง mapping สำหรับธีม Findup"
+  }
+}

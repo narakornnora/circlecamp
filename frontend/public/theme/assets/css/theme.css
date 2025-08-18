@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:#fff;color:#0b1b13}
+.container{max-width:1140px;margin:0 auto;padding:0 16px}
+.site-header{position:sticky;top:0;background:#0f5132;color:#e9f7ef}
+.site-header .brand{font-weight:700;padding:14px 0;display:inline-block}
+.nav{float:right}.nav a{color:#e9f7ef;text-decoration:none;margin:0 8px}
+.hero{padding:48px 0;background:#f8fafc}
+.site-footer{padding:24px 0;background:#f3f4f6;margin-top:48px}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;background:#0f5132;color:#fff}
+.card{border:1px solid #eee;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.row{display:flex;flex-wrap:wrap;margin:-12px}.col{padding:12px;width:100%}
+@media(min-width:768px){.col-4{width:33.333%}.col-6{width:50%}}
+img{max-width:100%;display:block;border-radius:12px}

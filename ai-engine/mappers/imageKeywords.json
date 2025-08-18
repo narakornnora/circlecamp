@@ -1,0 +1,54 @@
+{
+  "restaurant": [
+    "restaurant hero",
+    "thai food",
+    "pad thai",
+    "tom yum soup",
+    "interior",
+    "chef plating"
+  ],
+  "clinic": [
+    "clinic hero",
+    "doctor with patient",
+    "dental clinic",
+    "medical equipment",
+    "reception clinic"
+  ],
+  "hotel": [
+    "hotel lobby",
+    "modern hotel room",
+    "resort pool",
+    "breakfast buffet",
+    "city view"
+  ],
+  "ecommerce": [
+    "product flatlay",
+    "minimal product",
+    "shopping bag",
+    "online checkout"
+  ],
+  "salon": [
+    "hair salon",
+    "nail art",
+    "spa treatment",
+    "hair stylist"
+  ],
+  "realestate": [
+    "modern house exterior",
+    "condo interior",
+    "real estate agent",
+    "showroom"
+  ],
+  "education": [
+    "classroom",
+    "student learning",
+    "teacher coaching",
+    "online course"
+  ],
+  "generic": [
+    "business team",
+    "workspace",
+    "creative desk",
+    "branding"
+  ]
+}

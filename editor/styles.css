@@ -1,0 +1,16 @@
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:#f3f4f6;color:#0b1b13}
+.topbar{position:sticky;top:0;z-index:10;background:#0f5132;color:#e9f7ef;display:flex;justify-content:space-between;align-items:center;padding:10px 16px}
+.topbar .actions button{margin-left:8px}
+.wrap{display:grid;grid-template-columns:minmax(260px,1fr) minmax(360px,1.2fr) minmax(360px,1.2fr);gap:12px;padding:12px;height:calc(100vh - 96px)}
+.left,.middle,.right{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.06);padding:12px;overflow:auto}
+.left textarea{width:100%;height:240px;margin:6px 0;padding:8px;border:1px solid #e5e7eb;border-radius:8px;font-family:ui-monospace,monospace}
+.blocks{display:flex;flex-direction:column;gap:10px}
+.block{border:1px solid #e5e7eb;border-radius:10px;padding:10px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.block header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.block .btns button{margin-left:6px}
+.block textarea{width:100%;height:120px;border:1px solid #e5e7eb;border-radius:8px;padding:8px;font-family:ui-monospace,monospace}
+.primary{background:#0f5132;color:#fff;border:1px solid #0e4a2e}
+button{padding:8px 10px;border:1px solid #e5e7eb;border-radius:8px;background:#fff;cursor:pointer}
+button:hover{filter:brightness(.98)}
+#preview{width:100%;height:100%;border:0;border-radius:8px;background:#fff}
+.foot{padding:10px 16px;text-align:center;color:#6b7280}

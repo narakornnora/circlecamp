@@ -1,0 +1,11 @@
+@'
+/frontend/node_modules
+/backend/node_modules
+/frontend/.next
+**/keys/*.json
+*.env
+*.env.*.local
+*.zip
+.DS_Store
+'@ | Out-File -Encoding utf8 .gitignore
+frontend/.env.local

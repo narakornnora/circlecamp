@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Circlecamp — Lightweight Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">✏️ Circlecamp Editor</div>
+  <div class="actions">
+    <button id="btn-import">นำเข้า HTML</button>
+    <button id="btn-export" class="primary">บันทึกเป็นไฟล์ .html</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="left">
+    <h3>แหล่งข้อมูล</h3>
+    <textarea id="source" placeholder="วาง HTML ที่ได้จากการ 'สร้างเว็บ' ที่นี่ แล้วกด 'นำเข้า HTML'"></textarea>
+
+    <h3>ธีมครอบ (ไม่บังคับ)</h3>
+    <textarea id="theme" placeholder="(ทางเลือก) วาง HTML ธีมที่มี <header> ... </header> และ <footer> ... </footer> ถ้าไม่ใส่ ระบบจะสร้าง wrapper ให้อัตโนมัติ"></textarea>
+  </section>
+
+  <section class="middle">
+    <h3>บล็อก (ลากสลับ / แก้ไข)</h3>
+    <div id="blocks" class="blocks"></div>
+  </section>
+
+  <section class="right">
+    <h3>พรีวิว</h3>
+    <iframe id="preview" title="preview"></iframe>
+  </section>
+</main>
+
+<footer class="foot">© 2025 Circlecamp — Drag blocks to reorder, click to edit text or image URL</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
